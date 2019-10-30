@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagLayout">
+        <attr name="tagPadding" format="dimension" />
+        <attr name="tagPaddingLeft" format="dimension" />
+        <attr name="tagPaddingTop" format="dimension" />
+        <attr name="tagPaddingRight" format="dimension" />
+        <attr name="tagPaddingBottom" format="dimension" />
+        <attr name="tagRadius" format="dimension" />
+        <attr name="tagBackground" format="reference|color" />
+        <attr name="tagTextColor" format="reference|color" />
+        <attr name="tagTextSize" format="dimension" />
+        <attr name="tagWidth" format="dimension" />
+        <attr name="tagHeight" format="dimension" />
+        <attr name="tagHorizontalGap" format="dimension" />
+        <attr name="tagVerticalGap" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TagView">
+        <attr name="text" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

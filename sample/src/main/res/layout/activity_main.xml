@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:TagLayout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.fffz.taglayout.TagLayout
+        android:id="@+id/tag_layout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        TagLayout:tagBackground="@drawable/bg_tag"
+        TagLayout:tagHorizontalGap="5dp"
+        TagLayout:tagPadding="5dp"
+        TagLayout:tagPaddingLeft="20dp"
+        TagLayout:tagPaddingRight="20dp"
+        TagLayout:tagRadius="20dp"
+        TagLayout:tagTextColor="#ffffff"
+        TagLayout:tagTextSize="14dp"
+        TagLayout:tagVerticalGap="10dp">
+        <!--
+                <com.fffz.taglayout.TagView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_tag"
+                    TagLayout:radius="5dp"
+                    TagLayout:text="我是标签1"
+                    TagLayout:textColor="#ffffff"
+                    TagLayout:textSize="12dp" />
+
+                <com.fffz.taglayout.TagView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_tag"
+                    TagLayout:radius="5dp"
+                    TagLayout:text="我是标签2"
+                    TagLayout:textColor="#ffffff"
+                    TagLayout:textSize="12dp" />
+        -->
+    </com.fffz.taglayout.TagLayout>
+
+</LinearLayout>
